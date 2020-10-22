@@ -17,6 +17,7 @@
 		AA5555D82540FA980029A740 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AA5555D72540FA980029A740 /* SwiftyJSON */; };
 		AA5555DC2540FAC50029A740 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA5555DB2540FAC50029A740 /* MessageKit */; };
 		AA5555DF2540FB2D0029A740 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5555DE2540FB2D0029A740 /* ResultVC.swift */; };
+		AA5555E5254116940029A740 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5555E4254116940029A740 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AA5555C92540F9E20029A740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5555CB2540F9E20029A740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5555DE2540FB2D0029A740 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		AA5555E4254116940029A740 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5555E5254116940029A740 /* WebKit.framework in Frameworks */,
 				AA5555DC2540FAC50029A740 /* MessageKit in Frameworks */,
 				AA5555D82540FA980029A740 /* SwiftyJSON in Frameworks */,
 				AA5555D42540FA6D0029A740 /* Alamofire in Frameworks */,
@@ -50,6 +53,7 @@
 			children = (
 				AA5555BC2540F9E10029A740 /* SeguePage */,
 				AA5555BB2540F9E10029A740 /* Products */,
+				AA5555E3254116940029A740 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +78,14 @@
 				AA5555CB2540F9E20029A740 /* Info.plist */,
 			);
 			path = SeguePage;
+			sourceTree = "<group>";
+		};
+		AA5555E3254116940029A740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5555E4254116940029A740 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -291,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

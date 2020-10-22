@@ -76,7 +76,7 @@ class ViewController: MessagesViewController {
     
     func checkMessagesAndGoToResult() {
         print("Checking message count:",messages.count)
-        if(messages.count<1) {
+        if(messages.count<6) {
             return
         }
         DispatchQueue.main.asyncAfter(deadline: .now()+1) {
